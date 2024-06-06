@@ -16,7 +16,7 @@ docker run -d -p 8080:8080 yumerchalashkan/countries-api
 
 The api is working properly
 
-# Installing
+# Installation
 
 ```bash
 clone the project
