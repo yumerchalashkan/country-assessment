@@ -28,8 +28,12 @@ mvn package
 java -jar target/country-assessment-0.0.1-SNAPSHOT.jar
 ```
 # Endpoints
-- http://localhost:8081/country/sorted
-- http://localhost:8081/country/borders
+```bash
+http://localhost:8081/country/sorted
+```
+```bash
+http://localhost:8081/country/borders
+```
 
 # Project Architecture
 
