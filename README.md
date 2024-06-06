@@ -42,9 +42,7 @@ http://localhost:8081/country/borders
 
 The project that runs on Spring boot consists of 5 layers. The controller layer receives the request from the user and sends it to the service layer with the help of dto classes. Service layer makes a distinction according to the incoming request and runs the business logics of the relevant class. In the next flow, the request is sent to the API with the help of Rest Template. The request from the API is mapped to the Country class in the model layer. Then, after the methods in the service layer finish the necessary business logics, the data obtained is mapped to dto classes with the help of converter classes. Then the data is transferred directly to the controller class and Get Responses are returned to the user.
 
-```bash
-docker pull yumerchalashkan/countries-api
-```
+
 
 
 
